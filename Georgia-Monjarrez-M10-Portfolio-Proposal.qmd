@@ -1,0 +1,98 @@
+---
+title: "Portfolio Website Project Proposal"
+subtitle: "Customer Insights, Digital Marketing, and Analytics"
+author: "Georgia Monjarrez"
+date: 2026-10-27
+format:
+  html:
+    embed-resources: true
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    toc-title: "Contents"
+    number-sections: false
+    fontsize: 11pt
+    mainfont: "Arial"
+    link-external-newwindow: true
+---
+
+<style>
+h1, h2, h3 { color: #164a46; }
+#title-block-header { border-bottom: 3px solid #996b38; padding-bottom: 1.2rem; }
+a { color: #12645c; }
+</style>
+
+## Project overview
+
+I propose developing my Quarto portfolio into a professional website that connects digital marketing work with customer research and analytics. The goal is to show how I translate a business problem into measurable questions, choose appropriate methods, and communicate recommendations to a nontechnical audience. The primary audiences are prospective employers, instructors, and project stakeholders interested in my research, technical, and communication skills.
+
+My existing [portfolio website](https://gmonjarrez.github.io/m10-quarto-portfolio/) and [GitHub repository](https://github.com/gmonjarrez/m10-quarto-portfolio) provide the foundation. The current site includes my biography and photo, a Kellogg Ranch CEP planning dashboard, styling examples, and project listings. I will build on that work by organizing the portfolio around Home, Digital Marketing Projects, Marketing Analytics Projects, and Resume. The GA4 traffic analysis and Revealjs presentation will be projects within Marketing Analytics Projects rather than separate navigation tabs.
+
+## Home page
+
+The home page will introduce me as a Cal Poly Pomona student developing skills in customer insights and digital marketing analytics. It will retain my photo, short biography, education and coursework, skills, and career interests. My interests center on using research to improve online customer experiences and making findings useful for business decisions. Clear links will guide visitors to selected projects and my resume.
+
+## Digital Marketing Projects
+
+This page will use Quarto listings to present multiple projects with a short description, project category, and link to the full case summary.
+
+| Project | Focus and portfolio evidence |
+|---|---|
+| **The Lagree Edit: Storefront Design and Customer Experience** | My Shopify coursework will illustrate homepage messaging, collection organization, product information, and the path from browsing to purchase. Selected screenshots and explanations will connect design choices to customer needs. |
+| **Kellogg Ranch: Digital Customer Journey** | My CEP contribution will examine how website content and navigation help prospective guests find menus, operating hours, and the reservation interface. The case will distinguish my website-usability role from the group's broader newsletter and social media work. |
+
+Each case will explain the customer problem, intended audience, my contribution, and the evidence behind the work. Design changes will not be presented as proven sales improvements without supporting outcome data.
+
+## Marketing Analytics Projects
+
+This page will also contain multiple project listings, including the following planned entries:
+
+| Project | Data or source | Planned analysis or output |
+|---|---|---|
+| **Portfolio Website Traffic in GA4** | GA4 data collected from my own published portfolio after tracking is configured and verified | Traffic sources, landing pages, engagement, device patterns, and movement toward project content |
+| **Kellogg Ranch Website Usability** | Planned task-based observations and brief post-task ratings from prospective guests | Task-completion rates, median successful completion times, ease-rating distributions, and a Quarto dashboard |
+| **SQL and BigQuery for Customer Insights** | Existing SQL and BigQuery coursework and documented query examples | Reproducible filtering, aggregation, and data-quality checks connected to marketing questions |
+| **From Browsing to Booking: A Clearer Kellogg Ranch Website** | The CEP usability study described below | A Revealjs presentation summarizing the business problem, methods, findings when available, and recommendations |
+
+### Portfolio website traffic in GA4
+
+The management question is whether the portfolio attracts relevant visits and helps visitors discover my work. I plan to configure and validate tracking on the published site, then analyze a defined collection period. This proposal does not assume that GA4 is already collecting portfolio traffic.
+
+The analysis will compare traffic sources, landing pages, device categories, page views, and engagement measures. Where event collection can be verified, I will examine actions such as opening project content and selecting a resume download. Rates will use clearly stated denominators, and comparisons will use consistent date ranges. Low traffic, my own test visits, consent choices, and tracking gaps may limit interpretation. The results will guide changes to navigation, featured content, and calls to action; they will not establish a visitor's hiring intent or prove that a design change caused an improvement.
+
+## Revealjs project: From Browsing to Booking
+
+### Business problem and audience
+
+Prospective guests need to locate dining information before deciding whether to visit The Restaurant at Kellogg Ranch. Unclear labels, hard-to-find hours, or an inconspicuous reservation link could create friction. My presentation will address restaurant managers and staff responsible for website content and the guest experience. Its purpose is to help them prioritize practical website improvements.
+
+### Data and source
+
+The proposed data source is primary, task-based usability testing of the current RKR website, paired with brief post-task ratings. Participants will attempt three tasks: locate the relevant menu, identify operating hours for a specified service period, and reach the interface for starting a reservation. The study will record unassisted success, elapsed time, ease ratings from 1 to 5, device type, and observed barriers. Participant records used in the portfolio will be de-identified.
+
+The research plan comes from Group 9's *A Filling Recipe for Open Tables at Kellogg Ranch*, in which I am responsible for AO4: website content, navigation, and usability. The current portfolio contains planning metadata, not participant results.
+
+### Research questions and objectives
+
+1. What proportion of valid attempts succeeds without assistance for each task?
+2. Which tasks take the longest among successful unassisted attempts?
+3. How easy do participants find each task, and which barriers recur?
+4. Which content, labeling, or navigation changes are best supported by the evidence?
+
+### Quantitative methods
+
+I will calculate completion counts and percentages separately for each task, with valid-attempt denominators and missing values reported. I will compare observed completion rates with the project's proposed 80% benchmark and, where appropriate, use binomial confidence intervals to show uncertainty. This benchmark is a project target, not an established universal usability standard.
+
+I will summarize successful unassisted completion times using medians and interquartile ranges, and show the distribution of five-point ease ratings. Device comparisons will be descriptive unless the sample supports more formal analysis. Recurring observation themes will help explain the numerical patterns. Small or convenience samples will limit generalization, and repeated tasks from the same participant will not be treated as independent people.
+
+### Expected business impact
+
+The study should identify specific opportunities to improve menu visibility, operating-hours information, and reservation navigation. Recommendations will be prioritized by the observed frequency and severity of barriers. A later evaluation could repeat the same tasks to assess changes. Reaching a reservation interface will not be interpreted as a completed booking, increased revenue, or a causal effect on demand.
+
+The Revealjs presentation will follow an analytics-report sequence: executive overview, business problem, data and methods, results when available, limitations, and recommendations. Charts will emphasize the decision each result supports.
+
+## Resume and development plan
+
+The Resume page will summarize my verified education, relevant skills, and selected projects, with a downloadable resume once its details are finalized. It will distinguish coursework and project experience from employment and will not include unsupported credentials.
+
+For the remainder of the term, I will first reorganize the website and add project summaries, then configure and validate portfolio traffic measurement. Next, I will prepare and analyze available project data, develop the Revealjs presentation, and refine recommendations. Final review will focus on readable charts, accessible navigation, working links, clear attribution of group contributions, and consistent formatting. Quarto source files and rendered outputs will remain in GitHub, with the website published through GitHub Pages.
