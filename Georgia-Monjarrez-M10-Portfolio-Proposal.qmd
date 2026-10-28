@@ -22,6 +22,11 @@ h1, h2, h3 { color: #164a46; }
 a { color: #12645c; }
 </style>
 
+## Proposal links
+
+- [Published proposal](https://gmonjarrez.github.io/m10-portfolio-proposal/)
+- [Proposal GitHub repository](https://github.com/gmonjarrez/m10-portfolio-proposal)
+
 ## Project overview
 
 I propose developing my Quarto portfolio into a professional website that connects digital marketing work with customer research and analytics. The goal is to show how I translate a business problem into measurable questions, choose appropriate methods, and communicate recommendations to a nontechnical audience. The primary audiences are prospective employers, instructors, and project stakeholders interested in my research, technical, and communication skills.
